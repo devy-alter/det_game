@@ -1,0 +1,65 @@
+{
+  "id": "case_001",
+  "title": "The Midnight Poisoning",
+  "description": "A wealthy heir was found dead at Blackwood Manor after a private dinner. The apparent timeline leaves ten questions for the detective to break the suspect's story.",
+  "difficulty": "medium",
+  "crime": {
+    "type": "murder",
+    "victim": "Daniel Carter",
+    "location": "Blackwood Manor",
+    "time": "22:40"
+  },
+  "truth": {
+    "killer": "Ethan Cole",
+    "motive": "inheritance",
+    "method": "poisoning",
+    "sequence": "Ethan argued with Daniel, poisoned his whiskey, then left the manor."
+  },
+  "suspect": {
+    "name": "Ethan Cole",
+    "age": 34,
+    "occupation": "Businessman",
+    "personality": "calm, polished, defensive"
+  },
+  "alibi": {
+    "claim": "I was at home watching a football match from 21:45 onward.",
+    "truth": false
+  },
+  "evidence": [
+    {
+      "id": "e01",
+      "name": "Gate Camera",
+      "description": "A camera records Ethan's car entering the manor road at 22:18.",
+      "strength": 8,
+      "public": true
+    },
+    {
+      "id": "e02",
+      "name": "Phone Location",
+      "description": "Ethan's phone connected to a cell sector covering the manor between 22:21 and 22:47.",
+      "strength": 7,
+      "public": true
+    },
+    {
+      "id": "e03",
+      "name": "Poison Bottle",
+      "description": "Ethan's fingerprint is on the inner cap of the poison bottle recovered from the study.",
+      "strength": 10,
+      "public": true
+    },
+    {
+      "id": "e04",
+      "name": "Motive",
+      "description": "Daniel had changed his will, reducing Ethan's inheritance dramatically.",
+      "strength": 8,
+      "public": true
+    }
+  ],
+  "required_confession_facts": [
+    "suspect was at crime scene",
+    "suspect had motive",
+    "suspect handled poison",
+    "suspect poisoned victim"
+  ],
+  "opening_statement": "I did not kill Daniel. We argued earlier, but I left him alive and went home."
+}

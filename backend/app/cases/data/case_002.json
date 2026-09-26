@@ -1,0 +1,57 @@
+{
+  "id": "case_002",
+  "title": "The Gallery After Dark",
+  "description": "A priceless painting vanished from a locked gallery during a charity event. The curator insists only a tiny group could have done it.",
+  "difficulty": "hard",
+  "crime": {
+    "type": "art theft",
+    "victim": "Northbridge Gallery",
+    "location": "Northbridge Gallery",
+    "time": "23:05"
+  },
+  "truth": {
+    "killer": "Mara Voss",
+    "motive": "debt",
+    "method": "key duplication",
+    "sequence": "Mara duplicated the service key and hid the painting in a delivery crate."
+  },
+  "suspect": {
+    "name": "Mara Voss",
+    "age": 41,
+    "occupation": "Gallery Curator",
+    "personality": "precise, intimidating, evasive"
+  },
+  "alibi": {
+    "claim": "I was on the mezzanine speaking to donors at the time.",
+    "truth": false
+  },
+  "evidence": [
+    {
+      "id": "e01",
+      "name": "Service Door Log",
+      "description": "The service door opened with Mara's staff credential at 22:58.",
+      "strength": 8,
+      "public": true
+    },
+    {
+      "id": "e02",
+      "name": "Crate Weight",
+      "description": "A delivery crate signed by Mara weighed 18 kg more than its manifest indicated.",
+      "strength": 9,
+      "public": true
+    },
+    {
+      "id": "e03",
+      "name": "Key Impression",
+      "description": "A duplicate key matching the service lock was found in Mara's desk drawer.",
+      "strength": 10,
+      "public": true
+    }
+  ],
+  "required_confession_facts": [
+    "suspect accessed service door",
+    "suspect possessed duplicate key",
+    "suspect hid painting"
+  ],
+  "opening_statement": "I was protecting the collection all evening. Losing the painting is a failure of security, not proof that I stole it."
+}

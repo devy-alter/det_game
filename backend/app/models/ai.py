@@ -1,0 +1,1 @@
+class AILogRecord: pass

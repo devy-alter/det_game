@@ -1,0 +1,57 @@
+{
+  "id": "case_003",
+  "title": "The Last Train",
+  "description": "A commuter was robbed on a nearly empty platform just before midnight. One witness remembers a distinctive red coat.",
+  "difficulty": "easy",
+  "crime": {
+    "type": "robbery",
+    "victim": "Arun Mehta",
+    "location": "Platform 6",
+    "time": "23:52"
+  },
+  "truth": {
+    "killer": "Ravi Sen",
+    "motive": "gambling debt",
+    "method": "threat",
+    "sequence": "Ravi followed Arun onto Platform 6 and took the wallet before escaping through the maintenance stairwell."
+  },
+  "suspect": {
+    "name": "Ravi Sen",
+    "age": 27,
+    "occupation": "Delivery Driver",
+    "personality": "nervous, talkative, impulsive"
+  },
+  "alibi": {
+    "claim": "I was at the station cafe until midnight.",
+    "truth": false
+  },
+  "evidence": [
+    {
+      "id": "e01",
+      "name": "Cafe Receipt",
+      "description": "The cafe receipt shows Ravi's purchase at 23:37, but no later activity.",
+      "strength": 4,
+      "public": true
+    },
+    {
+      "id": "e02",
+      "name": "Red Coat Witness",
+      "description": "A witness saw a red jacket leaving Platform 6 at 23:55, matching Ravi's jacket.",
+      "strength": 7,
+      "public": true
+    },
+    {
+      "id": "e03",
+      "name": "Maintenance Camera",
+      "description": "A partial camera frame captures Ravi entering the maintenance stairwell at 23:54.",
+      "strength": 9,
+      "public": true
+    }
+  ],
+  "required_confession_facts": [
+    "suspect was on platform",
+    "suspect followed victim",
+    "suspect took wallet"
+  ],
+  "opening_statement": "I was just waiting for a coffee. I never went down to Platform 6."
+}
